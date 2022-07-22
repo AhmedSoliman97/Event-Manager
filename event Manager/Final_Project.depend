@@ -1,0 +1,87 @@
+# depslib dependency file v1.0
+1658355552 source:c:\users\ahmedsoliman\desktop\c interview\final_project\src\hardwarereceivepacket.cpp
+	"HardwareReceivePacket.h"
+
+1658355727 c:\users\ahmedsoliman\desktop\c interview\final_project\include\hardwarereceivepacket.h
+	"EventsBase.h"
+
+1658355547 source:c:\users\ahmedsoliman\desktop\c interview\final_project\src\hardwaresendpacket.cpp
+	"HardwareSendPacket.h"
+
+1658355723 c:\users\ahmedsoliman\desktop\c interview\final_project\include\hardwaresendpacket.h
+	"EventsBase.h"
+
+1658189228 source:c:\users\ahmedsoliman\desktop\c interview\final_project\src\systembase.cpp
+	"SystemBase.h"
+
+1658191348 c:\users\ahmedsoliman\desktop\c interview\final_project\include\systembase.h
+	<iostream>
+
+1658355543 source:c:\users\ahmedsoliman\desktop\c interview\final_project\src\systemshutdown.cpp
+	"SystemShutdown.h"
+
+1658355499 c:\users\ahmedsoliman\desktop\c interview\final_project\include\systemshutdown.h
+	"EventsBase.h"
+
+1658355538 source:c:\users\ahmedsoliman\desktop\c interview\final_project\src\systemsleep.cpp
+	"SystemSleep.h"
+
+1658355518 c:\users\ahmedsoliman\desktop\c interview\final_project\include\systemsleep.h
+	"EventsBase.h"
+
+1658355534 source:c:\users\ahmedsoliman\desktop\c interview\final_project\src\systemwakeup.cpp
+	"SystemWakeup.h"
+
+1658355528 c:\users\ahmedsoliman\desktop\c interview\final_project\include\systemwakeup.h
+	"EventsBase.h"
+
+1658191330 c:\users\ahmedsoliman\desktop\c interview\final_project\include\hardwarebase.h
+	<iostream>
+
+1658366299 source:c:\users\ahmedsoliman\desktop\c interview\final_project\main.cpp
+	<iostream>
+	<ctime>
+	"EventsManager.h"
+	"EventsGenerator.h"
+
+1658191044 source:c:\users\ahmedsoliman\desktop\c interview\final_project\src\hardwarebase.cpp
+	"HardwareBase.h"
+
+1658363830 c:\users\ahmedsoliman\desktop\c interview\final_project\include\eventsbase.h
+	<iostream>
+
+1658338467 source:c:\users\ahmedsoliman\desktop\c interview\final_project\src\comparator.cpp
+	"Comparator.h"
+	"EventsBase.h"
+
+1658355443 c:\users\ahmedsoliman\desktop\c interview\final_project\include\comparator.h
+	"EventsBase.h"
+
+1658352683 source:c:\users\ahmedsoliman\desktop\c interview\final_project\src\eventsbase.cpp
+	"EventsBase.h"
+
+1658362213 source:c:\users\ahmedsoliman\desktop\c interview\final_project\src\eventsgenerator.cpp
+	"EventsGenerator.h"
+	"SystemShutdown.h"
+	"SystemSleep.h"
+	"SystemWakeup.h"
+	"HardwareReceivePacket.h"
+	"HardwareSendPacket.h"
+
+1658355721 c:\users\ahmedsoliman\desktop\c interview\final_project\include\eventsgenerator.h
+	<iostream>
+	<thread>
+	<stdlib.h>
+	<time.h>
+
+1658367627 source:c:\users\ahmedsoliman\desktop\c interview\final_project\src\eventsmanager.cpp
+	"EventsManager.h"
+
+1658367725 c:\users\ahmedsoliman\desktop\c interview\final_project\include\eventsmanager.h
+	<thread>
+	<queue>
+	<vector>
+	<unistd.h>
+	<windows.h>
+	"Comparator.h"
+

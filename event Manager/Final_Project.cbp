@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Final_Project" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Final_Project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Final_Project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Comparator.h" />
+		<Unit filename="include/EventsBase.h" />
+		<Unit filename="include/EventsGenerator.h" />
+		<Unit filename="include/EventsManager.h" />
+		<Unit filename="include/HardwareReceivePacket.h" />
+		<Unit filename="include/HardwareSendPacket.h" />
+		<Unit filename="include/SystemShutdown.h" />
+		<Unit filename="include/SystemSleep.h" />
+		<Unit filename="include/SystemWakeup.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Comparator.cpp" />
+		<Unit filename="src/EventsBase.cpp" />
+		<Unit filename="src/EventsGenerator.cpp" />
+		<Unit filename="src/EventsManager.cpp" />
+		<Unit filename="src/HardwareReceivePacket.cpp" />
+		<Unit filename="src/HardwareSendPacket.cpp" />
+		<Unit filename="src/SystemShutdown.cpp" />
+		<Unit filename="src/SystemSleep.cpp" />
+		<Unit filename="src/SystemWakeup.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
